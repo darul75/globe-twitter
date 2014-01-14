@@ -8,10 +8,10 @@ var cronJob = require('cron').CronJob;
 
 var eventEmitter = new events.EventEmitter();
 
-var twitterConsumerKey = 'o2YJSxfrTahrywnodx32A';
-var twitterConsumerSecret = 'AGJl92rHxASFJXUoAJo30JSC56Zm34VqfaUdXuMFVjg';
-var access_token_key = '53659570-doYYVH7QT9Xmcqq7nmtRG8p5yq9nH4Zuruw28cBbT';
-var access_token_secret = 'QVK8dddxacH0327lnqsjC7iqfMlIpyxg9pkE1Aa5w9Oef';
+var twitterConsumerKey = '';
+var twitterConsumerSecret = '';
+var access_token_key = '';
+var access_token_secret = '';
 
 var twit = new twitter2({
   consumer_key: twitterConsumerKey,
