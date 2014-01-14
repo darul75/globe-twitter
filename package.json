@@ -1,0 +1,43 @@
+{
+  "name": "globe-twitter",
+  "description": "PlanetaryJs for Twitter",
+  "version": "0.0.1",
+  "author": {
+    "name": "Julien Valéry",
+    "email": "darul75@gmail.com"
+  },  
+  "homepage": "https://github.com/darul75/globe-twitter",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/darul75/globe-twitter.git"
+  },
+  "keywords": [
+    "twitter",
+    "planetaryjs",
+    "tweetping",
+    "ping"
+  ],
+  "main": "./lib/globe-twitter",  
+  "bugs": {
+    "url": "https://github.com/darul75/globe-twitter/issues"
+  },
+  "dependencies": {
+    "cron": "1.0.1",    
+    "express": "3.4.4",
+    "jade": "0.35.0",
+    "ntwitter": "0.5.0",
+    "oauth": "0.9.10",
+    "topojson": "1.4.5"
+  },
+  "devDependencies": {
+    "grunt": "latest",
+    "grunt-karma": "latest",
+    "grunt-contrib-jshint": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-cssmin": "~0.6.0",
+    "grunt-contrib-copy": "~0.4.1",
+    "karma": "~0.10",
+    "grunt-bower-task": "~0.3.4",
+    "time": "0.10.0"
+  }
+}
